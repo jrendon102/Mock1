@@ -1,0 +1,10 @@
+.catkin_tools/
+.vscode/
+
+build/
+devel/
+logs/
+
+__pycache__/
+*.py[cod]
+*$py.class

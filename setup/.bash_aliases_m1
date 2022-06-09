@@ -1,0 +1,28 @@
+# Locations
+alias m1="cd $HOME/mock1"
+alias m1c="cd $HOME/mock1/mock1_code"
+
+# ROS
+alias sm1="soruce $HOME/mock1/mock1_code/devel/setup.bash"
+alias tinfo="rostopic info"
+alias techo="rostopic echo"
+alias tgrp="rostopic list | grep"
+alias sgrp="rosservice list | grep"
+alias ngrp="rosnode list | grep"
+alias ninfo="rosnode info"
+
+# Git
+alias gta="git add"
+alias gtch="git checkout"
+alias gtcm="git commit -m"
+alias gtd="git diff"
+alias gtf="git fetch"
+alias gtl="git log"
+alias gtp="git pull"
+alias gts="git status"
+
+# Standard
+alias b="cd .."
+alias bb="cd ../.."
+alias bbb="cd ../../.."
+alias hgrep="history | grep"
