@@ -11,6 +11,6 @@ To setup custom aliases used for this project you need to create a symbolic link
    - `cd`.
 2. Now create a soft link using this command: 
    - `ln -s $HOME/Mock1/setup/.bash_aliases .bash_aliases_m1`
-3. Next, open the your `.bashrc` file, located in your home directory, using your favorite editor and add the following to the bottom of the file with proper syntax as shown below:
+3. Next, open the your `.bashrc` file, located in your home directory, using your favorite editor and add the following to the bottom of the file with proper syntax as shown below:<br>
 ![image](https://user-images.githubusercontent.com/91917978/172930918-9a40f921-7794-4523-b7de-5079c96fc3e3.png)
 4. Finally, open a new tab and you should be able to use the custom aliases located in the `~/Mock1/setup/.bash_aliases_m1` file.
