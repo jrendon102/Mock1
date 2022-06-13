@@ -1,9 +1,9 @@
 # Locations
-alias m1="cd $HOME/mock1"
-alias m1c="cd $HOME/mock1/mock1_code"
+alias m1="cd $HOME/Mock1"
+alias m1c="cd $HOME/Mock1/m1_code"
 
 # ROS
-alias sm1="soruce $HOME/mock1/mock1_code/devel/setup.bash"
+alias sm1="source $HOME/Mock1/m1_code/devel/setup.bash"
 alias tinfo="rostopic info"
 alias techo="rostopic echo"
 alias tgrp="rostopic list | grep"
@@ -26,3 +26,6 @@ alias b="cd .."
 alias bb="cd ../.."
 alias bbb="cd ../../.."
 alias hgrep="history | grep"
+
+# Navigation
+alias = teleop_m1="rosrun teleop_twist_keyboard teleop_twist_keyboard.py _speed:=0.125 _turn:=0.25"
