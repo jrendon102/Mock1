@@ -36,7 +36,7 @@ public:
         }
     };
 
-    double get_luminosity();
+    // TODO: double get_luminosity();
     void get_params();
     void show_feeds_cb(const sensor_msgs::ImageConstPtr &msg);
     void stream_feeds();

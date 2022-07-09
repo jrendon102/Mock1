@@ -4,6 +4,6 @@
 # index -> int
 
 camera:
-  name:
-  type:
-  index:
+  name: ""
+  type: ""
+  index: 2

@@ -1,11 +1,12 @@
 #include <cv_bridge/cv_bridge.h>
 #include <m1_camera_pkg/Camera.h>
 
-// Get the luminosity value of the image.
-double Camera::get_luminosity()
-{
-    return 10;
-}
+// TODO: Create get_luminosity function.
+// double Camera::get_luminosity()
+// {
+//     Get the recent image and calculate the avg intensity of each pixel value. Convert it
+//     to a scale from 0-1. This will determine the luminosity value. Maybe publish it as a topic.
+// }
 
 // Gets ROS parameters set by camera config file.
 void Camera::get_params()
