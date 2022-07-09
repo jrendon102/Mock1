@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<launch>
+    <group ns="camera_config">
+        <rosparam command="load" file="$(find m1_camera_pkg)/config/camera_config.yaml" />
+    </group>
+    <node name="camera_node" pkg="m1_camera_pkg" type="camera_node" />
+</launch>

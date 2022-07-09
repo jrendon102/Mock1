@@ -1,0 +1,9 @@
+## Camera Config
+# name -> std::string
+# type -> std::string
+# index -> int
+
+camera:
+  name:
+  type:
+  index:
