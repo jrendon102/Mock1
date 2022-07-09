@@ -32,6 +32,7 @@ public:
         else
         {
             _pub = img_tr.advertise("camera/feeds", 1);
+            stream_feeds();
         }
     };
 
